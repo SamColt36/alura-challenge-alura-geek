@@ -1,12 +1,13 @@
-const path = require("path"); // utilitários para trabalhar com caminhos de arquivos e diretórios
-const MiniCssExtractPlugin = require("mini-css-extract-plugin"); // produzir um arquivo css autônomo
-const HtmlWebpackPlugin = require("html-webpack-plugin"); // plugin para gerar o html de saída
+const path = require("path");
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
-  mode: "development", //Definir o modo de desenvolvimento
-  entry: "./src/scripts/main.js", // Ponto de entrada é onde o webpack procura começar a construir os arquivos de saída
+  mode: "development",
+  entry: "./src/scripts/main.js",
+
   output: {
-    filename: "main.js",
+    filename: "index.js",
     path: path.resolve(__dirname, "./docs"),
   },
   plugins: [
@@ -14,17 +15,17 @@ module.exports = {
       filename: "styles.css",
     }),
     new HtmlWebpackPlugin({
-      // Adicione o plugin aqui
-      template: "./src/pages/index.html", // Especifique o modelo HTML
-      filename: "index.html", // Nome do arquivo de saída
+      filename: "index.html",
+      template: "./src/pages/index.html",
       minify: {
-        collapseWhitespace: true, // Minificar o HTML
+        collapseWhitespace: true,
         removeComments: true,
         removeRedundantAttributes: true,
         removeScriptTypeAttributes: true,
         removeStyleLinkTypeAttributes: true,
         useShortDoctype: true,
       },
+      chunks: ["index"],
     }),
   ],
   module: {
