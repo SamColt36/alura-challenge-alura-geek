@@ -39,7 +39,7 @@ async function createProductsPerPage(page = 0) {
 // Retorna a inserção dos produtos na lista (ul)
 function loadsProducts(arrayProductsPerPage) {
   return arrayProductsPerPage.map(async (product) =>
-    $ulListOfProducts.append(await product.getLi())
+    $ulListOfProducts.append(await product.getLi()).fadeIn(500)
   );
 }
 
@@ -65,7 +65,8 @@ $previousPage.on("click", function () {
   if (page > 0) {
     $pageCurrent.val(page);
     // Apagar os filhos da lista para inserção e novos produtos
-    $ulListOfProducts.empty();
+
+    $ulListOfProducts.children().remove();
     return pagination((current -= LIMIT));
   }
   return (page = 1);
@@ -77,7 +78,7 @@ $nextPage.on("click", async function () {
   page++;
 
   // Apagar os filhos da lista para inserção e novos produtos
-  $ulListOfProducts.empty();
+  $ulListOfProducts.children().remove();
   $pageCurrent.val(page);
 
   const promiseCollection = await pagination((current += LIMIT));
