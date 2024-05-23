@@ -1,8 +1,7 @@
 # 🚀 Challenge: Alura Geek
 
-![](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)![](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)![](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)![](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)![](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white)![](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)   
-<img src="https://i.gifer.com/S0S.gif" height="250"></img>   
-
+![](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)![](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)![](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)![](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)![](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white)![](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)  
+<img src="https://i.gifer.com/S0S.gif" height="250"></img>
 
 ## 🌐 Visão Geral
 
@@ -12,7 +11,6 @@ Alura Geek oferece uma experiência envolvente para os amantes da cultura geek. 
 
 - Layout responsivo para diferentes tamanhos de tela;
 - Inserção e remoção de produtos dinamicamente;
-- Dark mode nativo.
 
 ## 📁 Clonar repositório
 
@@ -83,19 +81,21 @@ _Foi usada a sintaxe do CJS nos quando aos arquivos de configuração._
 Após as devidas instalações e configurações presentes nos arquivos `*.config.js`, caso queira alterar o projeto é necessário recompilar os arquivos para gerar uma nova saída (por _default_ no diretório `docs/`). Pensando nisso, o arquivo _package.json_ conta com dois _scripts_:
 
 ```json
-"scripts": {
-	"build": "webpack --config webpack.config.js",
-	"watch": "webpack --watch"
-},
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "server": "json-server ./src/server/db.json  --watch",
+    "watch": "webpack --watch"
+  },
 ```
 
-- **build**: Apenas compila e gera as saídas
-- **watch**: Assiste as mudanças no código e compila.
+- **build**: Apenas compila e gera as saídas;
+- **watch**: Assiste as mudanças no código e compila, e
+- **server**: Inicia o json-server que simula uma API Rest;
 
-Por fim e não menos importante, rode no terminal um desses dois _scripts_ usando:
+Por fim e não menos importante, rode no terminal esses dois _scripts_ usando:
 
 ```bash
-$ npm run build
+$ npm run server
 ```
 
 ou
@@ -110,4 +110,4 @@ Contribuições são bem-vindas! Sinta-se à vontade para enviar pull requests o
 
 ## 📄 Licença
 
-Este projeto está licenciado sob a Licença MIT. Consulte o arquivo LICENSE ou acesse [MIT License (mit-license.org)](https://mit-license.org/) para obter detalhes.   
+Este projeto está licenciado sob a Licença MIT. Consulte o arquivo LICENSE ou acesse [MIT License (mit-license.org)](https://mit-license.org/) para obter detalhes.

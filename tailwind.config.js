@@ -14,7 +14,7 @@ module.exports = {
         emphisis: "#71ff7b",
         detail: "#EF4444",
         white: "#E6E6E6",
-        background: "#1E293B",
+        background: "#020617",
         dark: "#141C2F",
       },
     },

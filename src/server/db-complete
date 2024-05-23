@@ -1,0 +1,221 @@
+{
+    "products": [
+        {
+            "title": "Echo Pop",
+            "model": "Smart speaker compacto com som envolvente e Alexa | Cor Preta",
+            "image": "https://m.media-amazon.com/images/I/51UfG+CTu7L._AC_UF226,226_FMjpg_.jpg",
+            "discount": 23,
+            "price": 349.00
+        },
+        {
+            "title": "Smartphone Motorola",
+            "model": "Moto G34 5G 16GB RAM Boost* 256GB Vanilla - Vegan Leathe",
+            "image": "https://m.media-amazon.com/images/I/31I81vrrMnL._AC_UF226,226_FMjpg_.jpg",
+            "discount": 14,
+            "price": 1208.59
+        },
+        {
+            "title": "Caixa de Som Speaker, Aiwa, Bluetooth",
+            "model": "IP65 - AWS-SP-01",
+            "image": "https://m.media-amazon.com/images/I/81hep7CGsyL._AC_SX522_.jpg",
+            "discount": 10,
+            "price": 249.00
+        },
+        {
+            "title": "Tablet Samsung Galaxy Tab S6 Lite",
+            "model": "64GB, 4GB RAM, Tela Imersiva de 10.4', Câmera Traseira 8MP",
+            "image": "https://m.media-amazon.com/images/I/710SVJBnw+L._AC_SX679_.jpg",
+            "discount": 11,
+            "price": 1979.00
+        },
+        {
+            "title": "Tablet Preto",
+            "model": "M7S GO, Multilaser, NB316, 16, 7''",
+            "image": "https://m.media-amazon.com/images/I/51LtRfwxEeL._AC_SX679_.jpg",
+            "discount": null,
+            "price": 449.00
+        },
+        {
+            "title": "DS4 Preto",
+            "model": "PS Controle Dualsense - Midnight Black",
+            "image": "https://m.media-amazon.com/images/I/51DF-14iHzL._AC_SX679_.jpg",
+            "discount": 22,
+            "price": 469.90
+        },
+        {
+            "title": "Smart Controle Universal",
+            "model": "Infravermelho IZY Connect Preto Intelbras",
+            "image": "https://m.media-amazon.com/images/I/31usEQ1DoYL._AC_SX679_.jpg",
+            "discount": 25,
+            "price": 79.00
+        },
+        {
+            "title": "Livro Eletrônica",
+            "model": "Volume 1 Capa comum – 10 agosto 2016 / Edição 8",
+            "image": "https://m.media-amazon.com/images/I/81I9rPe3jFL._SY466_.jpg",
+            "discount": 30,
+            "price": 303.00
+        },
+        {
+            "title": "McAfee Antivírus",
+            "model": "Proteção Contra Ameaças Digitais, Programas Não Desejados",
+            "image": "https://m.media-amazon.com/images/I/61CMxoIDQ2L._AC_SY741_.jpg",
+            "discount": 31,
+            "price": 29.00
+        },
+        {
+            "title": "Livro Linguagem C",
+            "model": "Completa e Descomplicada Capa comum",
+            "image": "https://m.media-amazon.com/images/I/718hLqm6snL._SY466_.jpg",
+            "discount": 22,
+            "price": 237.00
+        },
+        {
+            "title": "Suporte",
+            "model": "Suporte Uptable OCTOO, Preto",
+            "image": "https://m.media-amazon.com/images/I/51NM5D1VN+L._AC_SX679_.jpg",
+            "discount": null,
+            "price": 49.00
+        },
+        {
+            "title": "Cadeira de Escritório",
+            "model": "Modelo secretária - Base Cromada com Rodinha Fortt Lisboa Preta - CSF02-P",
+            "image": "https://m.media-amazon.com/images/I/61VpeQ3B-JL._AC_SX679_.jpg",
+            "discount": 31,
+            "price": 243.00
+        },
+        {
+            "title": "Adaptador Para Tomada Universal",
+            "model": "2Pinos+T 10A Bivolt Branco, Force Line, 4313",
+            "image": "https://m.media-amazon.com/images/I/51NEKCElyQL._AC_SX522_.jpg",
+            "discount": 55,
+            "price": 22.22
+        },
+        {
+            "title": "Extensao com Terra",
+            "model": "5 Entradas, Cabo 3X0,75Mm2, 5M Br",
+            "image": "https://m.media-amazon.com/images/I/81poRiFfPUL._AC_SY879_.jpg",
+            "discount": 24,
+            "price": 47.58
+        },
+        {
+            "title": "Cordão Prolongador Tripolar",
+            "model": "10A 3 Metros Bivolt Preto - Force Line",
+            "image": "https://m.media-amazon.com/images/I/61zDEJsemaL._AC_SX679_.jpg",
+            "discount": 20,
+            "price": 33.20
+        },
+        {
+            "title": "PIX Cabo De Audio",
+            "model": "P2+2rca Nickel Fitz 2mts, Santana Centro, 018-0702",
+            "image": "https://m.media-amazon.com/images/I/51l6PbfCL6L._AC_SX679_.jpg",
+            "discount": 17,
+            "price": 18.03
+        },
+        {
+            "title": "Suporte Universal Multiuso",
+            "model": "Pequeno Preto, Force Line, 110200011",
+            "image": "https://m.media-amazon.com/images/I/51j-79g6LeL._AC_SX679_.jpg",
+            "discount": 22,
+            "price": 35.64
+        },
+        {
+            "title": "Motorola, Base Carregador",
+            "model": "TurboPower 15W, Wireless, Porta USB-C, Sem Fio",
+            "image": "https://m.media-amazon.com/images/I/71jd2EWu7pL._AC_SX679_.jpg",
+            "discount": 10,
+            "price": 293.99
+        },
+        {
+            "title": "Fone de Ouvido Bluetooth",
+            "model": "Motorola, Verve Loop 200 Sh023 Preto",
+            "image": "https://m.media-amazon.com/images/I/41AY2bJlR6L.__AC_SX300_SY300_QL70_ML2_.jpg",
+            "discount": 10,
+            "price": 149.00
+        },
+        {
+            "title": "Organizador de Cabos",
+            "model": "Organizador de Cabos, Force Line, 0101200031, Preto",
+            "image": "https://m.media-amazon.com/images/I/615rqzFQC7L._AC_SX522_.jpg",
+            "discount": 47,
+            "price": 29.00
+        },
+        {
+            "title": "Cabo de Dados",
+            "model": "Motorola, Cabo de Dados 2 Metros USB-C - USB-C, Preto",
+            "image": "https://m.media-amazon.com/images/I/41WmMX5JxGL._SX522_.jpg",
+            "discount": 25,
+            "price": 79.90
+        },
+        {
+            "title": "Hogwarts Legacy",
+            "model": "Marca: Warner Bros. Entertainment Inc. - PlayStation 4",
+            "image": "https://m.media-amazon.com/images/I/61zYmk35zkL._AC_SX679_.jpg",
+            "discount": 37,
+            "price": 299.90
+        },
+        {
+            "title": "Teclado Mecânico Gamer Usb",
+            "model": "Cronos Retrô Led Rainbow Switch Blue Azul Anti Poeira teclas redondas vintage double Injection Memória",
+            "image": "https://m.media-amazon.com/images/I/7196ZUeU6KL._AC_SX522_.jpg",
+            "discount": 10,
+            "price": 234.99
+        },
+        {
+            "title": "GameSir G8 Galileo Type-C",
+            "model": "Controlador móvel para Jogos para Android e iPhone 15-Serie (USB-C)",
+            "image": "https://m.media-amazon.com/images/I/61MjgicR7qL._AC_SX679_.jpg",
+            "discount": 37,
+            "price": 599.00
+        },
+        {
+            "title": "Headset Sades Snowwolf",
+            "model": "Fone de Ouvido Gamer para Xbox One Ps4 Nintendo Switch VR Celular, Branca",
+            "image": "https://m.media-amazon.com/images/I/51DFn0iJ3ML._AC_SX679_.jpg",
+            "discount": 10,
+            "price": 210.00
+        },
+        {
+            "title": "Extreme Simracing Suporte",
+            "model": "Extreme Simracing Suporte Para Volantes SPRO Preto",
+            "image": "https://m.media-amazon.com/images/I/61VLkIxwniL._AC_SX679_.jpg",
+            "discount": 14,
+            "price": 699.00
+        },
+        {
+            "title": "Controlador profissional sem fio",
+            "model": "GameSir T4 Cyclone Pro, controlador de efeito Hall (sem deriva) para PC com Windows, Switch, Steam Deck, Android e iOS (preto)",
+            "image": "https://m.media-amazon.com/images/I/71jz+5J-C3L._AC_SX679_.jpg",
+            "discount": 30,
+            "price": 399.00
+        },
+        {
+            "title": "Fonte Carregador",
+            "model": "Fonte Carregador Nintendo Ds Lite Bivolt Ac Adapter [video game]",
+            "image": "https://m.media-amazon.com/images/I/81SMSkPTNuL._AC_SX679_.jpg",
+            "discount": 10,
+            "price": 20.89
+        },
+        {
+            "title": "Kit Bateria P/ Controle Ps3",
+            "model": "Kit Bateria P/ Controle Ps3 1800mah + Cabo Carregador Usb",
+            "image": "https://m.media-amazon.com/images/I/61wSA+nqggL._AC_SX679_.jpg",
+            "discount": 10,
+            "price": 24.90
+        },
+        {
+            "title": "Adaptador 2 Tomada Padrão 10a",
+            "model": "Bivolt Plug Duplo C/ 2 Portas USB Com Botão Liga/Desliga Para Celular Notebook PC",
+            "image": "https://m.media-amazon.com/images/I/51gPVfqtHSL._AC_SX679_.jpg",
+            "discount": 15,
+            "price": 84.99
+        },
+        {
+            "title": "Porta copos Gamer",
+            "model": "Porta copos Gamer- Icons Super Games",
+            "image": "https://m.media-amazon.com/images/I/61hiJ52bNQL._AC_SX679_.jpg",
+            "discount": 0,
+            "price": 69.90
+        }
+    ]
+}

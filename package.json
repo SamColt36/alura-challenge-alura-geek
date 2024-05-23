@@ -11,6 +11,7 @@
   "author": "Samuel da Silva Santos",
   "license": "MIT",
   "dependencies": {
+    "axios": "^1.7.2",
     "css-loader": "^7.1.1",
     "jquery": "^3.7.1",
     "json-server": "^1.0.0-alpha.23",

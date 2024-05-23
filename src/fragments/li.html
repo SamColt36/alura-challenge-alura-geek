@@ -1,38 +1,40 @@
-<li class="grid grid-cols-1 p-4 transition-all duration-500 rounded-lg cursor-pointer gap-y-4 lg:gap-y-4 xl:gap-4 xl:grid-rows-1 xl:grid-cols-3 group bg-dark hover:ring-1 hover:ring-gray-600 xs:gap-2 sm:p-2"
+<li class="grid grid-cols-1 p-4 transition-all duration-500 rounded-lg cursor-pointer gap-y-4 lg:gap-y-4 xl:gap-4 xl:grid-rows-1 xl:grid-cols-3 group bg-dark hover:ring-1 hover:ring-gray-600 xs:gap-2 sm:p-2 listItem"
     role="listitem">
     <figure class="relative overflow-hidden cursor-pointer h-32 flex items-center justify-center bg-[#FFFFFF]"
         role="figure">
         <span
-            class="absolute right-0 z-20 py-1 pl-3 pr-1 text-xs font-medium text-right shadow-md top-4 rounded-s-full bg-emphisis text-dark">${discount}</span>
+            class="absolute right-0 z-20 py-1 pl-3 pr-1 text-xs font-medium text-right shadow-md top-4 rounded-s-full bg-emphisis text-dark"
+            aria-label="Disconto a ser aplicado ao produto">${discount}</span>
 
-        <img src="${image}" role="img" alt="Image product"
+        <img src="${image}" role="img" alt="Image product" aria-label="Imagem do produto"
             class="z-10 object-contain p-1 transition-transform duration-500 select-none h-2/3 group-hover:-rotate-12 group-hover:scale-150">
     </figure>
 
-    <section class="flex flex-col items-center justify-between col-span-2 gap-y-4" id="$casa">
-        <div class="space-y-1">
-            <h4 class="font-semibold uppercase line-clamp-1 lg:text-lg xl:text-lg">${title}</h4>
-            <h6 class="w-full text-xs text-gray-400 min-h-8 hyphens-auto line-clamp-2">Descrição: <span
-                    class="uppercase">${model}</span>
+    <section class="flex flex-col items-center justify-between col-span-2 gap-y-4">
+        <div class="flex flex-col items-start justify-center gap-1">
+            <h4 class="text-lg font-semibold line-clamp-1" aria-label="Título do produto">${title}</h4>
+            <h6 class="w-full text-sm text-gray-400 min-h-8 hyphens-auto line-clamp-2"
+                aria-label="Descrição sucinta do produto">Descrição: <span>${model}</span>
             </h6>
         </div>
 
         <div
             class="flex flex-col items-start justify-between w-full gap-2 lg:flex-row lg:items-center xl:items-center lg:*:w-1/2 xl:flex-row xl:*:w-1/2">
-            <p id="subtotal" disabled class="font-semibold bg-inherit lg:text-lg xl:text-lg">${price}</p>
+            <p id="subtotal" disabled class="text-lg font-semibold bg-inherit"
+                aria-label="Preço do produto em moeda corrente">${price}</p>
 
             <div
-                class="flex w-full justify-center p-1 space-x-2 border border-gray-500 rounded-lg *:cursor-pointer lg:p-2 xl:p-2">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" class="size-4 fill-white">
-                    <path d="M200-440v-80h560v80H200Z" />
+                class="relative removeItem overflow-hidden after:transition-all after:duration-500 flex w-full justify-center items-center p-1 space-x-2 border border-gray-500 hover:border-none rounded-lg *:cursor-pointer group/after after:block after:absolute after:w-0 after:top-0 after:left-0 hover:after:w-full after:h-full after:bg-detail lg:p-2 xl:p-2">
+                <svg fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                    class="z-10 w-5 stroke-white group-hover/after:stroke-dark shrink-0"
+                    aria-label="Remove uma unidade do item" role="button">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M9 13h6m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                 </svg>
 
-                <input type="text" name="quantity" step="1" value="0" maxlength="2" disabled
-                    class="w-10 text-sm text-center text-white outline-none bg-inherit" />
-
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" class="size-4 fill-emphisis">
-                    <path d="M440-440H200v-80h240v-240h80v240h240v80H520v240h-80v-240Z" />
-                </svg>
+                <p
+                    class="z-10 text-xs uppercase transition-colors duration-500 group-hover/after:text-dark group-hover/after:font-semibold">
+                    remover</p>
             </div>
         </div>
     </section>

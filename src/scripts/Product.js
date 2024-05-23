@@ -1,20 +1,20 @@
 import $ from "jquery";
 
-export default class Product {
-  constructor(title, model, image, discount, price, stock) {
+class Product {
+  constructor(title, model, image, discount, price) {
     this.title = title;
     this.model = model;
     this.image = image;
-    this.discount = discount;
-    this.price = price;
-    this.stock = stock;
+    this.discount = parseFloat(discount);
+    this.price = parseFloat(price);
   }
+
   getTitle() {
-    return this.title.toUpperCase();
+    return this.title;
   }
 
   getModel() {
-    return this.model.toUpperCase();
+    return this.model;
   }
 
   getDiscount() {
@@ -26,23 +26,18 @@ export default class Product {
 
   async getImage() {
     try {
-      const requestImage = await fetch(this.image);
-
-      if(!requestImage.ok) {
-        console.log("imagem não enconttrada");
-      }
-
+      await fetch(this.image);
       return this.image;
     } catch (error) {
-      // Caso não encontre a imagem
       return (this.image = "./images/image-not-found.png");
     }
   }
 
   getPrice() {
-    // Retorna uma string formatada em modeda corrente
+    /* Retorna uma string formatada em modeda corrente */
     if (this.discount) {
-      const priceNumber = this.price * (1 - this.discount * 0.01);
+      const priceNumber = this.price * (1.0 - this.discount * 0.01);
+
       return priceNumber.toLocaleString("pt-br", {
         style: "currency",
         currency: "BRL",
@@ -72,3 +67,5 @@ export default class Product {
     return resolve;
   }
 }
+
+export default Product;
