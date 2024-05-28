@@ -7,6 +7,8 @@
 
 Alura Geek oferece uma experiência envolvente para os amantes da cultura geek. Desenvolvida com HTML, CSS e JavaScript, potencializada pelo Tailwind CSS e Webpack, proporciona interatividade e praticidade. Permite aos usuários adicionar produtos facilmente, com detalhes como nome, valor e preço. Seu design responsivo e tema dark nativo garantem uma experiência visualmente atraente em qualquer dispositivo.
 
+É importante resaltar que para manipulação dos produtos é necessário que o servidor esteja ligado. Aqui foi usado o json-server que simula uma API Rest.
+
 ## 📋 Funcionalidades
 
 - Layout responsivo para diferentes tamanhos de tela;
@@ -40,11 +42,11 @@ gh repo clone SamColt36/alura-challenge-alura-geek/
 
 O projeto encontra-se em:
 
-> Início
+> Finalizado
 
 ## 🌐 Acessar o projeto
 
-Acesse a última versão disponível pelo [link](https://samcolt36.github.io/alura-challenge-alura-geek/)🔗.
+Acesse a última versão disponível pelo [link](https://alura-challenge-alura-geek-psi.vercel.app/)🔗.
 
 ## 📂 Estrutura de diretórios
 
